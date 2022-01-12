@@ -1,0 +1,19 @@
+{
+  "name": "haqproject/naufalarinalhaq",
+  "description": "Belajar PHP Composer",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "HaqProject\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "haqproject/belajar-php-composer-library": "2.0.0",
+    "monolog/monolog": "2.3.5"
+  },
+  "scripts": {
+    "jalankan-server": "php -S localhost:8080",
+    "hehe": "echo 'hehehe'"
+  }
+}
